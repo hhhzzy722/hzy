@@ -1,0 +1,21 @@
+server:
+  port:
+    8080
+logging.level.org.springframework:
+  info
+mybatis:
+  mapper-locations : classpath:mapper/*Mapper.xml
+  config-location :classpath:mapper/config/sqlMapConfig.xml
+  type-aliases-package : cn.qlq.bean
+#shujuyuan
+spring:
+  datasource:
+   driver-class-name :
+    com.mysql.jdbc.Driver
+   url:
+    jdbc:mysql://hw.xqpark.cn:3306/hzytest?useUnicode=true&autoReconnect=true&characterEncoding=utf8
+   username:
+    root
+   password:
+    xqtc
+

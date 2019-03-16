@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/hzy-api/pom.xml" />
         <option value="$PROJECT_DIR$/hzy-service/pom.xml" />
         <option value="$PROJECT_DIR$/repository/pom.xml" />
+        <option value="$PROJECT_DIR$/hzy-application/pom.xml" />
       </list>
     </option>
   </component>
