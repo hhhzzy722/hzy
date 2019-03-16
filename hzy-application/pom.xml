@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.hzy</groupId>
-    <artifactId>hzy-api</artifactId>
+    <artifactId>hzy-application</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>hzy-api</name>
+    <name>hzy-service</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
         <dependency>
@@ -30,11 +30,13 @@
             <scope>test</scope>
         </dependency>
 
+
         <dependency>
             <groupId>com.hzy</groupId>
-            <artifactId>hzy-application</artifactId>
+            <artifactId>hzy-repository</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
     </dependencies>
 
     <build>

@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.hzy</groupId>
-    <artifactId>hzy-service</artifactId>
+    <artifactId>hzy-repository</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>hzy-service</name>
+    <name>hzy-repository</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

@@ -1,6 +1,6 @@
 package com.hzy.api.controller;
 
-import com.hzy.service.utils.DateUtils;
+import com.hzy.application.utils.DateUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

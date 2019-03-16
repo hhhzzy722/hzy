@@ -7,8 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hzy-api" />
-        <module name="hzy-service" />
+        <module name="hzy-application" />
+        <module name="hzy-repository" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hzy-application" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

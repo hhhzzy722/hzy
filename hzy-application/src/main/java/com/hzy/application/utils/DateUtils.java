@@ -1,4 +1,4 @@
-package com.hzy.service.utils;
+package com.hzy.application.utils;
 
 import java.util.Date;
 
